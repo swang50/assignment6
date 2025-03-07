@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="products.css"?>
+<products>
+    <product>
+        <name>Handcrafted Ceramic Vase</name>
+        <description>Elegant hand-thrown vase with a glossy blue glaze.</description>
+        <price>$45</price>
+        <categories>
+            <category>decor</category>
+            <category>handmade</category>
+        </categories>
+    </product>
+    
+    <product>
+        <name>Rustic Clay Bowl Set</name>
+        <description>Set of 3 rustic-style clay bowls, perfect for serving.</description>
+        <price>$30</price>
+        <categories>
+            <category>kitchenware</category>
+            <category>handmade</category>
+        </categories>
+    </product>
+    
+    <product>
+        <name>Porcelain Tea Set</name>
+        <description>Delicate porcelain tea set with intricate floral patterns.</description>
+        <price>$80</price>
+        <categories>
+            <category>kitchenware</category>
+        </categories>
+    </product>
+    
+    <product>
+        <name>Minimalist Pottery Mug</name>
+        <description>Simple and stylish mug with a smooth matte finish.</description>
+        <price>$20</price>
+        <categories>
+            <category>kitchenware</category>
+        </categories>
+    </product>
+    
+    <product>
+        <name>Decorative Wall Plate</name>
+        <description>Hand-painted ceramic wall plate for home decor.</description>
+        <price>$55</price>
+        <categories>
+            <category>decor</category>
+        </categories>
+    </product>
+    
+    <product>
+        <name>Antique Clay Pot</name>
+        <description>Traditional clay pot with intricate carvings.</description>
+        <price>$65</price>
+        <categories>
+            <category>decor</category>
+            <category>vintage</category>
+        </categories>
+    </product>
+    
+    <product>
+        <name>Japanese Raku Bowl</name>
+        <description>Authentic Raku-style bowl with a unique glaze pattern.</description>
+        <price>$50</price>
+        <categories>
+            <category>kitchenware</category>
+            <category>handmade</category>
+        </categories>
+    </product>
+    
+    <product>
+        <name>Glazed Terracotta Planter</name>
+        <description>Perfect planter for succulents and small plants.</description>
+        <price>$25</price>
+        <categories>
+            <category>decor</category>
+        </categories>
+    </product>
+</products>

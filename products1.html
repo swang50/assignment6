@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Products JSON</title>
+    <link rel="stylesheet" href="products.css">
+</head>
+<body>
+    <script>
+        var products = [
+            {
+                "name": "Handcrafted Ceramic Vase",
+                "description": "Elegant hand-thrown vase with a glossy blue glaze.",
+                "price": "$45",
+                "categories": ["decor", "handmade"]
+            },
+            {
+                "name": "Rustic Clay Bowl Set",
+                "description": "Set of 3 rustic-style clay bowls, perfect for serving.",
+                "price": "$30",
+                "categories": ["kitchenware", "handmade"]
+            },
+            {
+                "name": "Porcelain Tea Set",
+                "description": "Delicate porcelain tea set with intricate floral patterns.",
+                "price": "$80",
+                "categories": ["kitchenware"]
+            },
+            {
+                "name": "Minimalist Pottery Mug",
+                "description": "Simple and stylish mug with a smooth matte finish.",
+                "price": "$20",
+                "categories": ["kitchenware"]
+            },
+            {
+                "name": "Decorative Wall Plate",
+                "description": "Hand-painted ceramic wall plate for home decor.",
+                "price": "$55",
+                "categories": ["decor"]
+            },
+            {
+                "name": "Antique Clay Pot",
+                "description": "Traditional clay pot with intricate carvings.",
+                "price": "$65",
+                "categories": ["decor", "vintage"]
+            },
+            {
+                "name": "Japanese Raku Bowl",
+                "description": "Authentic Raku-style bowl with a unique glaze pattern.",
+                "price": "$50",
+                "categories": ["kitchenware", "handmade"]
+            },
+            {
+                "name": "Glazed Terracotta Planter",
+                "description": "Perfect planter for succulents and small plants.",
+                "price": "$25",
+                "categories": ["decor"]
+            }
+        ];
+
+        // Convert JSON to string and display it on the page
+        document.write("<pre>" + JSON.stringify(products, null, 4) + "</pre>");
+    </script>
+</body>
+</html>
