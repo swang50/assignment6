@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<head>
+    <title>JSON Display</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <h1>JSON</h1>
+    <pre id="json-display">Loading...</pre>
+
+    <script>
+        $(document).ready(function() {
+            $.getJSON("products.json", function(data) {
+                $("#json-display").text(JSON.stringify(data, null, 4));
+            }).fail(function() {
+                $("#json-display").text("Error: Could not load JSON file!");
+            });
+        });
+    </script>
+</body>
+</html>
